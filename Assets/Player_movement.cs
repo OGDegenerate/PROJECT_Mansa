@@ -130,7 +130,7 @@ public class Player_movement : MonoBehaviour
         // Increases fall speed
         if (!isGrounded && ySpeed < 0)
         {
-            ySpeed += Physics.gravity.y * 3f * Time.deltaTime;
+            ySpeed += Physics.gravity.y * 1.5f * Time.deltaTime;
         }
     }
 
